@@ -8,7 +8,7 @@ public class Calculator {
         Circle cir1 = new Circle(4);
         Rectangle rec1 = new Rectangle(3,4);
 
-        float areaOfCircle = cir1.getRadius() * 3.1416f;
+        double areaOfCircle = Math.PI * cir1.getRadius() * cir1.getRadius();
         System.out.println(areaOfCircle);
 
         float areOfRectangle = rec1.getSideA() * rec1.getSideB();
